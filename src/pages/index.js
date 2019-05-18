@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
@@ -190,7 +191,8 @@ const IndexPage = () => (
             <h5>
               This started contains all HTML elements
               <br />
-              Checkout available styling <a href="/Element">Here</a>.
+              Checkout available styling
+              <Link to="/Element">Home</Link>
             </h5>
           </div>
         </section>
