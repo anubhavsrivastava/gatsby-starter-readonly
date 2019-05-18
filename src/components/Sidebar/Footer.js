@@ -1,11 +1,10 @@
 import React from 'react';
-import config from '../../config';
 
-export default function Footer() {
+export default function Footer({ socialLinks }) {
   return (
     <footer>
       <ul className="icons">
-        {config.socialLinks.map(social => {
+        {socialLinks.map(social => {
           const { icon, name, url } = social;
           return (
             <li key={url}>

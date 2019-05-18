@@ -9,13 +9,13 @@ class Layout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isPreloaded: 'is-preload',
+      isPreloaded: true,
     };
   }
 
   componentDidMount() {
     this.timeoutId = setTimeout(() => {
-      this.setState({ isPreloaded: true });
+      this.setState({ isPreloaded: false });
     }, 100);
   }
 

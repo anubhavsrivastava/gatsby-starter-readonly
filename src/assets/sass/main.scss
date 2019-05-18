@@ -1687,7 +1687,7 @@ input[type='button'],
 
   body,
   .main-body {
-    &.header-visible {
+    .header-visible {
       #wrapper,
       #titleBar {
         @if _misc(header-side) == 'right' {
@@ -1872,8 +1872,9 @@ input[type='button'],
     }
   }
 
-  body {
-    &.header-visible {
+  body,
+  .main-body {
+    .header-visible {
       #wrapper,
       #titleBar {
         @if _misc(header-side) == 'right' {
