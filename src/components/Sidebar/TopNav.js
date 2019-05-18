@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TopNav({ title, onMenuClick }) {
+export default function TopNav({ title, onMenuClick = () => {} }) {
   return (
     <div id="titleBar">
       <a

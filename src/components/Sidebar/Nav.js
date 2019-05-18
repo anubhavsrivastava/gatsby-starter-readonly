@@ -2,7 +2,7 @@ import React from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-export default function Nav({ sections }) {
+export default function Nav({ sections = [] }) {
   return (
     <nav id="nav">
       <ul>

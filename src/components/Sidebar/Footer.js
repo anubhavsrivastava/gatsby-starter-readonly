@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Footer({ socialLinks }) {
+export default function Footer({ socialLinks = [] }) {
   return (
     <footer>
       <ul className="icons">
