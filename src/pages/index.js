@@ -192,7 +192,7 @@ const IndexPage = () => (
               This started contains all HTML elements
               <br />
               Checkout available styling
-              <Link to="/Element">Home</Link>
+              <Link to="/Element"> here</Link>
             </h5>
           </div>
         </section>
