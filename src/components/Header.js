@@ -12,11 +12,7 @@ export default function Footer() {
       <h1 id="logo">
         <a href="/#">{config.authorName}</a>
       </h1>
-      <p>
-        I got reprogrammed by a rogue AI
-        <br />
-        and now I'm totally cray
-      </p>
+      <p>{config.heading}</p>
     </header>
   );
 }
